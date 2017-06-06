@@ -25,7 +25,7 @@ end
 def replace_in_files(new_project_name)
   @paths.each do |p|
     text = File.read p
-    changed_text = text.gsub(/TddTemplate/, new_project_name)
+    changed_text = text.gsub(/GpApp/, new_project_name)
     File.open(p, 'w') { |f| f << changed_text }
   end
 

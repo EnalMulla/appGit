@@ -180,6 +180,10 @@ GEM
     rb-fsevent (0.9.8)
     rb-inotify (0.9.8)
       ffi (>= 0.5.0)
+    rename (1.0.6)
+      activesupport
+      rails (>= 3.0.0)
+      thor (>= 0.19.1)
     rspec (3.5.0)
       rspec-core (~> 3.5.0)
       rspec-expectations (~> 3.5.0)
@@ -280,6 +284,7 @@ DEPENDENCIES
   pry-doc
   rails (>= 5.0.2)
   rails_12factor
+  rename
   rspec-rails
   rubocop
   sass-rails
@@ -294,4 +299,4 @@ RUBY VERSION
    ruby 2.4.0p0
 
 BUNDLED WITH
-   1.14.6
+   1.15.1

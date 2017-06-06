@@ -6,7 +6,7 @@ The project is pre-defined with commonly used db tables, & Postgres support.
 ## Setup
 
 ### Renaming the app.
-After cloning the project, the app name is 'TddTemplate'.
+After cloning the project, the app name is 'GpApp'.
 You should rename it by running `./rename_project NewAppName`.
 
 ### Server Setup
