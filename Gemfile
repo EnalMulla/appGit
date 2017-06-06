@@ -1,6 +1,9 @@
 source 'https://rubygems.org'
 ruby '2.4.0'
 gem 'dotenv-rails', :groups => [:development, :test]
+# # #
+gem 'cowsay'
+ # # #
 gem 'rails', '>= 5.0.2'
 gem 'passenger'
 gem 'sass-rails'
